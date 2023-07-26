@@ -1,0 +1,237 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	// "condition": { //模式配置，仅开发期间生效
+	// 	"current": 0, //当前激活的模式(list 的索引项)
+	// 	"list": [{
+	// 		"name": "test", //模式名称
+	// 		"path": "pages/componentsC/test/index", //启动页面，必选
+	// 		"query": "uuid=c4bba940-f69e-11ea-a419-6bafda9d095e&__id__=1" //启动参数，在页面的onLoad函数里面得到
+	// 	}]
+	// },
+	"pages": [
+		// 演示-组件
+		{
+		    "path" : "pages/login/login",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "登录",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+           "path" : "pages/index/index",
+           "style" :                                                                                    
+           {
+               "navigationBarTitleText": "主页",
+               "enablePullDownRefresh": false
+           }
+        }
+        ,{
+            "path" : "pages/service/service",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "全部服务",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/yanglao/yanglao",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "智慧养老",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/news/news",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新闻",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+		    "path" : "pages/home/home",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "个人中心",
+		        "enablePullDownRefresh": false
+		    }
+		}
+        
+        ,{
+            "path" : "pages/home/setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/password",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/feedback",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "意见反馈",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/news/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新闻",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/news/list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新闻列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/feedhistory",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "意见反馈历史",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/yanglao/f1",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "健康评估",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/yanglao/f2",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约机构",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/yanglao/f3",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "入驻办理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/yanglao/f4",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "巡检记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/yanglao/f5",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "集中监测",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/yanglao/intro",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "机构介绍",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/ucharts",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uView",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#303133",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/city3/b1.png",
+				"selectedIconPath": "static/city3/a1.png",
+				"text": "主页"
+			},
+			{
+				"pagePath": "pages/service/service",
+				"iconPath": "static/city3/b2.png",
+				"selectedIconPath": "static/city3/a2.png",
+				"text": "全部服务"
+			},
+			{
+				"pagePath": "pages/yanglao/yanglao",
+				"iconPath": "static/city3/b3.png",
+				"selectedIconPath": "static/city3/a3.png",
+				"text": "智慧养老"
+			},
+			{
+				"pagePath": "pages/news/index",
+				"iconPath": "static/city3/b4.png",
+				"selectedIconPath": "static/city3/a4.png",
+				"text": "新闻"
+			},
+			{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/city3/b5.png",
+				"selectedIconPath": "static/city3/a5.png",
+				"text": "个人中心"
+			}
+		]
+	}
+}
